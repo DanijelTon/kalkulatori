@@ -9,6 +9,8 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
             width: 80%;
@@ -17,6 +19,7 @@
             background: white;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            margin-top: 50px;
         }
         .calculator {
             margin: 20px 0;
@@ -33,6 +36,7 @@
             display: inline-block;
             margin: 10px;
             border-radius: 5px;
+            transition: background 0.3s ease;
         }
         a:hover {
             background: #0056b3;
@@ -46,17 +50,17 @@
         
         <div class="calculator">
             <h2>Osnovni kalkulator</h2>
-            <a href="#">Otvori</a>
+            <a href="basic_calculator.html">Otvori</a>
         </div>
         
         <div class="calculator">
             <h2>BMI Kalkulator</h2>
-            <a href="#">Otvori</a>
+            <a href="bmi_calculator.html">Otvori</a>
         </div>
         
         <div class="calculator">
             <h2>Finansijski kalkulator</h2>
-            <a href="#">Otvori</a>
+            <a href="finance_calculator.html">Otvori</a>
         </div>
     </div>
 </body>
